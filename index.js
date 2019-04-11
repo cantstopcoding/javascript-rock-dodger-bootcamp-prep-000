@@ -132,8 +132,7 @@ function endGame() {
     ROCKS[i].remove();
   }
   document.removeEventListener('keydown', moveDodger);
-  START.innerHTML = 'Play Again?'
-  START.style.
+  
   alert('YOU LOSE!');
 }
 
